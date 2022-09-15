@@ -1,0 +1,115 @@
+{
+  "name": "Meaning of Life Questionnaire",
+  "instructions": "Silahkan luangkan waktu untuk memikirkan hal-hal yang anda nggap penting dalam hidup anda, kemudia silahkan menjawab pertanyaan berikut ini dengan jujur dan apa adanyab. Semua soal ini sanat subjektif dan tidak ada yang salah atau betul",
+  "scale": [
+    {
+      "prompt": "Sangat Tidak Benar",
+      "value": 1,
+      "reverseValue": 7
+    },
+    {
+      "prompt": "Kebanyakannya Tidak Benar",
+      "value": 2,
+      "reverseValue": 6
+    },
+    {
+      "prompt": "Sedikit Tidak Benar",
+      "value": 3,
+      "reverseValue": 5
+    },
+    {
+      "prompt": "Ragu-ragu",
+      "value": 4,
+      "reverseValue": 4
+    },
+    {
+      "prompt": "Sedikit Benar",
+      "value": 5,
+      "reverseValue": 3
+    },
+    {
+      "prompt": "Kebanyakannya Benar",
+      "value": 6,
+      "reverseValue": 2
+    },
+    {
+      "prompt": "Memang Benar Sekali",
+      "value": 7,
+      "reverseValue": 1
+    }
+  ],
+  "feedback": [
+    {
+      "threshold": { "Presence of Meaning": 25, "Search for Meaning": 25 },
+      "priority": 1,
+      "text": "Anda merasa hidup Anda memiliki makna dan tujuan yang berharga, namun Anda masih secara terbuka mengeksplorasi makna atau tujuan itu. Anda cenderung puas dengan hidup Anda, umumnya optimis, sering mengalami perasaan cinta, dan jarang merasa tertekan atau cemas. Anda mungkin agak aktif dalam kegiatan bidang spiritualitas, karena penting bagi Anda. Anda menempatkan kegiatan bersenang-senang lebih rendah dari membantu orang lain. Anda umumnya yakin mengenai pandangan dan keyakinan Anda. Meskipun Anda dapat dikatakan lebih suka memiliki posisi yang stabil dalam masyarakat dan kehidupan, Anda melihat banyak area untuk perbaikan terhadap situasi saat ini. Orang yang mengenal Anda mungkin akan menggambarkan Anda sebagai orang yang teliti, bijaksana, mudah bergaul, terbuka terhadap pengalaman baru, dan umumnya santai dan stabil secara emosiona."
+    },
+    {
+      "threshold": { "Presence of Meaning": 25, "Search for Meaning": 0 },
+      "priority": 2,
+      "text": "Anda merasa hidup Anda memiliki makna dan tujuan yang berharga, dan tidak secara aktif mengeksplorasi makna itu atau mencari lagi makna dalam hidup Anda. Orang mungkin mengatakan bahwa Anda puas karena telah memahami apa yang membuat hidup Anda bermakna, mengapa Anda ada di sini, dan apa yang ingin Anda lakukan dengan hidup Anda. Anda mungkin sangat puas dengan hidup Anda, optimis, dan memiliki harga diri yang sehat. Anda sering mengalami perasaan cinta dan gembira, dan jarang merasa takut, marah, malu, atau sedih. Anda mungkin memegang nilai-nilai tradisional. Anda biasanya yakin, dan sering tegas mengenai pandangan Anda. Anda mungkin aktif dan berkomitmen untuk kegiatan spiritual. Orang yang mengenal Anda mungkin akan menggambarkan Anda sebagai orang yang teliti, teratur, ramah, mudah bergaul, dan sosial."
+    },
+    {
+      "threshold": { "Presence of Meaning": 0, "Search for Meaning": 25 },
+      "priority": 3,
+      "text": "Anda mungkin tidak merasa hidup Anda memiliki arti dan tujuan yang berharga, dan Anda masih secara aktif mencari sesuatu atau seseorang yang akan memberi makna atau tujuan hidup Anda. Anda mungkin merasa bingung dan ide ini dapat menyebabkan Anda tertekan. Anda mungkin tidak selalu puas dengan hidup Anda. Anda mungkin tidak sering mengalami emosi seperti cinta dan kegembiraan. Anda mungkin kadang-kadang, atau bahkan sering, merasa cemas, gugup, atau sedih. Anda mungkin mempertanyakan peran spiritualitas dalam hidup anda, dan mungkin sedang bekerja keras untuk mencari tahu apakah Tuhan itu ada, apa sebenarnya kehidupan di Bumi. Orang yang mengenal Anda mungkin akan menggambarkan Anda sebagai orang yang suka bermain-main, atau \"mengikuti arus\" . Mereka mungkin menemukan Anda khawatir pada suatu kesempatan, dan tidak terlalu aktif secara sosial"
+    },
+    {
+      "threshold": { "Presence of Meaning": 0, "Search for Meaning": 0 },
+      "priority": 4,
+      "text": "Anda mungkin tidak merasa hidup Anda memiliki makna dan tujuan yang berharga, dan tidak secara aktif mengeksplorasi makna itu atau mencari makna dalam hidup Anda. Secara keseluruhan, Anda mungkin tidak menganggap gagasan untuk memikirkan makna hidup sangat menarik atau penting. Anda mungkin tidak selalu puas dengan hidup Anda, atau diri Anda sendiri, dan Anda mungkin tidak terlalu optimis tentang masa depan. Anda mungkin tidak sering mengalami emosi seperti cinta dan kegembiraan. Anda mungkin kadang-kadang, atau bahkan sering, merasa cemas, gugup, atau sedih dan tertekan. Anda mungkin tidak memegang nilai-nilai tradisional, dan mungkin lebih cenderung menghargai pengalaman yang merangsang dan menggairahkan. Ketika Anda memiliki keputusan besar untuk dibuat, Anda mungkin lebih memilih untuk mengidentifikasi jawaban yang benar berdasarkan keyakinan Anda bahwa 'Anda akan mengetahuinya ketika Anda melihatnya'. Orang yang mengenal Anda mungkin akan menggambarkan Anda sebagai orang yang terkadang tidak teratur, sering gugup atau tegang , dan tidak terlalu aktif secara sosial atau tidak hangat terhadap orang lain."
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Saya faham makna kehidupan saya dan manfaat saya dalam hidup ini.",
+      "subcategory": "Presence of Meaning",
+      "reverse": false
+    },
+    {
+      "prompt": "Saya sedang mencari sesuatu yang dapat menyebabkan saya merasa bahwa kehidupan saya berarti.",
+      "subcategory": "Search for Meaning",
+      "reverse": false
+    },
+    {
+      "prompt": "Saya senantiasa mencari tujuan hidup saya. ",
+      "subcategory": "Search for Meaning",
+      "reverse": false
+    },
+    {
+      "prompt": "Saya mempunyai tujuan kehidupan yang jelas.",
+      "subcategory": "Presence of Meaning",
+      "reverse": false
+    },
+    {
+      "prompt": "Saya memiliki perasaan yang positif tentang apa yang membuat hidup saya bermakna. ",
+      "subcategory": "Presence of Meaning",
+      "reverse": false
+    },
+    {
+      "prompt": "Saya telah menemukan tujuan hidup yang memuaskan. ",
+      "subcategory": "Presence of Meaning",
+      "reverse": false
+    },
+    {
+      "prompt": "Saya sedang mencari sesuatu yang menyebabkan saya merasa bahwa keberadaan memiliki peran yang signifikan.",
+      "subcategory": "Search for Meaning",
+      "reverse": false
+    },
+    {
+      "prompt": "Saya sedang mencari tujuan atau misi kehidupan saya.",
+      "subcategory": "Search for Meaning",
+      "reverse": false
+    },
+    {
+      "prompt": "Saya tidak mempunyai tujuan hidup yang jelas.",
+      "subcategory": "Presence of Meaning",
+      "reverse": true
+    },
+    {
+      "prompt": "Saya sedang mencari makna dalam hidup saya.",
+      "subcategory": "Search for Meaning",
+      "reverse": false
+    }
+  ]
+}
