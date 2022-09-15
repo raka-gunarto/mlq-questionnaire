@@ -1,6 +1,6 @@
 {
   "name": "Meaning of Life Questionnaire",
-  "instructions": "Silahkan luangkan waktu untuk memikirkan hal-hal yang anda nggap penting dalam hidup anda, kemudia silahkan menjawab pertanyaan berikut ini dengan jujur dan apa adanyab. Semua soal ini sanat subjektif dan tidak ada yang salah atau betul",
+  "instructions": "Silahkan luangkan waktu untuk memikirkan hal-hal yang anda anggap penting dalam hidup anda, kemudian silahkan menjawab pertanyaan berikut ini dengan jujur dan apa adanya. Semua soal ini sangat subjektif dan tidak ada yang salah atau betul",
   "scale": [
     {
       "prompt": "Sangat Tidak Benar",
