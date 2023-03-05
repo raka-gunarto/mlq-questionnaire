@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mlq-questionnaire/static/css/main.090c5e3a.css",
-    "main.js": "/mlq-questionnaire/static/js/main.89d07a02.js",
+    "main.css": "/mlq-questionnaire/static/css/main.ce1d2bae.css",
+    "main.js": "/mlq-questionnaire/static/js/main.e81a0aae.js",
     "index.html": "/mlq-questionnaire/index.html",
-    "main.090c5e3a.css.map": "/mlq-questionnaire/static/css/main.090c5e3a.css.map",
-    "main.89d07a02.js.map": "/mlq-questionnaire/static/js/main.89d07a02.js.map"
+    "main.ce1d2bae.css.map": "/mlq-questionnaire/static/css/main.ce1d2bae.css.map",
+    "main.e81a0aae.js.map": "/mlq-questionnaire/static/js/main.e81a0aae.js.map"
   },
   "entrypoints": [
-    "static/css/main.090c5e3a.css",
-    "static/js/main.89d07a02.js"
+    "static/css/main.ce1d2bae.css",
+    "static/js/main.e81a0aae.js"
   ]
 }
