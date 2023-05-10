@@ -2,8 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import clsx from "clsx";
 import useQuestionnaire from "./useQuestionnaire";
 
-import FS_id from "./FS_indonesian.json";
-
 import {
   SnapItem,
   SnapList,
@@ -13,13 +11,15 @@ import {
 import QuestionCard from "./QuestionCard";
 import ResultsCard from "./ResultsCard";
 
-const languages = {
-  Indonesian: FS_id,
-};
-
 function App() {
   const [currentLanguage, setCurrentLanguage] = useState("Indonesian");
-  const questionnaire = useQuestionnaire(languages[currentLanguage]);
+  const [languages, setLanguages] = useState(null);
+
+  const questionnaire = useQuestionnaire(
+    languages !== null
+      ? languages[currentLanguage]
+      : { name: "", instructions: "", scale: [], feedback: [], questions: [] }
+  );
   const [results, setResults] = useState(null);
 
   const snaplist = useRef();
@@ -29,6 +29,22 @@ function App() {
   );
   const goToQuestion = useScroll({ ref: snaplist });
 
+  useEffect(() => {
+    fetch(
+      "https://raw.githubusercontent.com/raka-gunarto/mlq-questionnaire/data/data.json",
+      {
+        body: null,
+        method: "GET",
+      }
+    )
+      .then((resp) => resp.json())
+      .then((data) => {
+        console.log(data);
+        setLanguages(data);
+        questionnaire.changeQuestionnaire(data[currentLanguage]);
+      });
+  }, []);
+
   const submitQuestionnaire = () => {
     const result = questionnaire.score();
     if (result.status === "FAIL_MISSING") return goToQuestion(result.data + 1);
@@ -36,6 +52,7 @@ function App() {
   };
 
   useEffect(() => {
+    if (languages == null) return;
     const oldAnswers = questionnaire.questions.map((q, idx) => [idx, q.answer]);
     questionnaire.changeQuestionnaire(languages[currentLanguage]);
     for (const [idx, val] of oldAnswers) questionnaire.answerQuestion(idx, val);
@@ -57,6 +74,8 @@ function App() {
       );
     });
   }, []);
+
+  if (languages == null) return <div>Loading...</div>;
 
   return (
     <div className="flex flex-col items-center justify-center h-screen w-screen bg-slate-800 pt-5 pb-5">
