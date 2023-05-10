@@ -48,11 +48,6 @@
     ],
     "questions": [
       {
-        "prompt": "TEST",
-        "subcategory": "Kekuatan",
-        "reverse": false
-      },
-      {
         "prompt": "Kami bisa saling mengungkapkan apapun yang kami rasakan dengan leluasa dengan cara yang bisa diterima satu sama lain",
         "subcategory": "Kekuatan",
         "reverse": false
