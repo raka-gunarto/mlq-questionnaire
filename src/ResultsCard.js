@@ -22,8 +22,8 @@ export default function ResultsCard({ results, scale, questions }) {
           </p>
         ))}
       </div>
-      <div className="text-center text-sm lg:text-lg overflow-auto">
-        {results.feedback}
+      <div className="text-center text-md lg:text-lg overflow-auto flex-1 flex flex-col justify-center">
+        <p>{results.feedback}</p>
       </div>
     </div>
   );

@@ -2,8 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import clsx from "clsx";
 import useQuestionnaire from "./useQuestionnaire";
 
-import MLQ_eng from "./MLQ_english.json";
-import MLQ_id from "./MLQ_indonesian.json";
+import FS_id from "./FS_indonesian.json";
 
 import {
   SnapItem,
@@ -15,12 +14,11 @@ import QuestionCard from "./QuestionCard";
 import ResultsCard from "./ResultsCard";
 
 const languages = {
-  English: MLQ_eng,
-  Indonesian: MLQ_id,
+  Indonesian: FS_id,
 };
 
 function App() {
-  const [currentLanguage, setCurrentLanguage] = useState("English");
+  const [currentLanguage, setCurrentLanguage] = useState("Indonesian");
   const questionnaire = useQuestionnaire(languages[currentLanguage]);
   const [results, setResults] = useState(null);
 
@@ -46,6 +44,20 @@ function App() {
   useEffect(() => {
     window.document.title = questionnaire.metadata.name;
   }, [questionnaire]);
+
+  useEffect(() => {
+    document.documentElement.style.setProperty(
+      "--vh",
+      `${window.innerHeight * 0.01}px`
+    );
+    window.addEventListener("resize", () => {
+      document.documentElement.style.setProperty(
+        "--vh",
+        `${window.innerHeight * 0.01}px`
+      );
+    });
+  }, []);
+
   return (
     <div className="flex flex-col items-center justify-center h-screen w-screen bg-slate-800 pt-5 pb-5">
       <div className="flex flex-row items-center justify-center mb-3 bg-slate-200 rounded-xl cursor-pointer select-none">
