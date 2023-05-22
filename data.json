@@ -1,7 +1,7 @@
 {
   "Indonesian": {
-    "name": "Asesmen Komunikasi untuk Leader-Managers",
-    "instructions": "Silakan membaca pertanyaan dengan seksama. Jawablah dengan jujur dan hanya anda yang bisa melihat hasilnya.",
+    "name": "Evaluasi Komunikasi untuk Pemimpin-Manajer",
+    "instructions": "Silakan baca setiap pernyataan dalam profil evaluasi dan jawablah dengan jujur sesuai dengan yang Anda lakukan selama ini. Hanya Anda yang dapat melihat hasilnya.",
     "scale": [
       {
         "prompt": "Tidak Pernah",
@@ -33,127 +33,127 @@
       {
         "threshold": { "Kekuatan": 90 },
         "priority": 1,
-        "text": "Superstar Communicator. Keep on doing all the right things and take a look at those areas you scored yourself less than 5 and determine how to raise those scores."
+        "text": "Komunikator Cemerlang. Tetaplah lakukan hal-hal yang benar dan perhatikan area di mana Anda memberikan skor kurang dari 'Sangat Sering Sekali' dan tentukan bagaimana cara Anda meningkatkan skor-skor tersebut."
       },
       {
         "threshold": { "Kekuatan": 79 },
         "priority": 2,
-        "text": "Talented Communicator. Identify the areas you need to improve. Determine which one, if improved, would have the biggest impact on your success. What behavior can you start to practice to improve the skill?"
+        "text": "Komunikator Berbakat. Identifikasi area di mana Anda perlu meningkatkan diri. Tentukan salah satu area yang, jika diperbaiki, akan memiliki dampak terbesar pada kesuksesan Anda. Apa perilaku yang dapat mulai Anda praktikkan untuk meningkatkan keterampilan tersebut?"
       },
       {
         "threshold": { "Kekuatan": 68 },
         "priority": 3,
-        "text": "Mediocre Communicator. Seek out advice from communications superstar in your organization. Create a development plan that focuses on the top two skills you need to improve. Ask for feedback and coaching from this person as you implement the plan."
+        "text": "Komunikator Medioker. Cari nasihat dari Komunikator Bintang dalam organisasi Anda. Buat rencana pengembangan diri yang fokus pada dua keterampilan teratas yang perlu Anda tingkatkan. Mintalah feedback (umpan balik) dan bimbingan dari orang tersebut saat Anda menerapkan rencana tersebut."
       },
       {
         "threshold": { "Kekuatan": 57 },
         "priority": 4,
-        "text": "Distressed Communicator. Ask for assistance from your manager to develop an improvement plan including any necessary communications training. Track progress of the plan and make necessary changes if improvement isn’t being observed by your manager."
+        "text": "Komunikator yang Perlu Peningkatkan. Minta bantuan dari manajer Anda untuk mengembangkan rencana perbaikan yang mencakup pelatihan komunikasi yang diperlukan. Lacak kemajuan rencana tersebut dan lakukan perubahan yang diperlukan jika manajer Anda tidak melihat adanya perbaikan."
       },
       {
         "threshold": { "Kekuatan": 45 },
         "priority": 5,
-        "text": "Bankrupt Communicator. Remedial work is required, ask someone you trust who is a superstar or talented communicator to help coach you. If improvement isn’t made, you may want to seek outside advice on your career plans. It may be that becoming a manager-leader is outside your grasp and you need to re- evaluate your career goals."
+        "text": "Komunikator yang Memerlukan Pertolongan. Diperlukan upaya pemulihan, mintalah bantuan seseorang yang Anda percaya, yang merupakan 'Komunikator Cemerlang' atau 'Komunikator Berbakat', untuk membantu melatih Anda. Jika tidak ada perbaikan yang terjadi, Anda mungkin ingin mencari nasihat dari pihak luar mengenai rencana karier Anda. Kemungkinan menjadi seorang pemimpin-manajer tidak sesuai dengan kemampuan Anda dan Anda perlu mengevaluasi kembali tujuan karier Anda."
       }
     ],
     "questions": [
       {
-        "prompt": "I do not have someone else discipline, coach or do performance reviews for my team members. I do all of that myself.",
+        "prompt": "Saya tidak memiliki orang lain yang bertanggung jawab untuk mendisiplinkan, melatih, atau melakukan penilaian kinerja anggota tim saya. Saya melakukan semuanya sendiri.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I ask probing and open ended questions to understand a situation before giving my advice or opinion.",
+        "prompt": "Saya mengajukan pertanyaan yang mendalam dan terbuka untuk memahami situasi sebelum memberikan saran atau pendapat saya.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "When I listen to my team members, it is important for me to be empathetic. I allow them to talk without having to feel that they are being criticized or judged.",
+        "prompt": "Saat saya mendengarkan anggota tim saya, penting bagi saya untuk memiliki empati. Saya membiarkan mereka berbicara tanpa merasa bahwa mereka sedang dikritik atau dihakimi.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I do not give my team members mixed messages. I would not say: 'Thanks for finishing the project on time; it will save us a lot of money. But, while working on a project, you need to communicate your status more often.'",
+        "prompt": "Saya tidak memberikan pesan yang bercampur aduk kepada anggota tim saya. Saya tidak akan mengatakan, 'Terima kasih telah menyelesaikan proyek tepat waktu; itu akan menghemat banyak pengeluaran kita. Tetapi, saat bekerja pada proyek, Anda perlu lebih sering mengkomunikasikan status pekerjaan Anda.'",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "When I listen, I try to clarify what my team members have said. I do this to let them know that I am actively listening to what they are saying.",
+        "prompt": "Saat saya mendengarkan, saya berusaha untuk memperjelas apa yang dikatakan anggota tim saya. Saya melakukannya untuk memberi tahu mereka bahwa saya benar-benar mendengarkan apa yang mereka katakan.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I keep an open mind and try to understand the point of view of other team members.",
+        "prompt": "Saya berusaha open-mind dan memahami sudut pandang anggota tim lainnya.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "When listening, I give my full attention to my team members. I am not on the phone, writing or thinking about something else.",
+        "prompt": "Saat mendengarkan, saya memberikan perhatian penuh kepada anggota tim saya. Saya tidak melakukannya sambil menelepon, menulis, atau memikirkan hal lain.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I summarize what I have heard and understood at the end of a conversation or discussion.",
+        "prompt": "Saya merangkum apa yang telah saya dengar dan pahami pada akhir percakapan atau diskusi.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I am careful not to allow the words or expressions that I use to get in the way of my team members understanding me. I avoid jargon, slang, and acronyms.",
+        "prompt": "Saya berhati-hati agar kata-kata atau ungkapan yang saya gunakan tidak menghalangi pemahaman anggota tim terhadap saya. Saya menghindari penggunaan jargon, bahasa gaul, dan singkatan.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "When I listen, I look for meaning by listening to what my team members say, their vocal tones and inflections and by watching their facial expressions, hand gestures, and body language.",
+        "prompt": "Saat saya mendengarkan, saya mencari makna dengan mendengarkan apa yang dikatakan anggota tim saya. Saya memperhatikan nada suara, intonasi, ekspresi wajah, gerakan tangan, dan bahasa tubuh mereka.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I am aware that team members come from different backgrounds and diverse cultures, so they communicate differently. I adapt my communication styles to meet their needs.",
+        "prompt": "Saya menyadari bahwa anggota tim saya berasal dari latar belakang dan budaya yang berbeda, sehingga mereka berkomunikasi dengan cara yang berbeda pula. Saya menyesuaikan gaya komunikasi saya untuk memenuhi kebutuhan mereka.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": " I communicate my feelings and thoughts about work issues and policies to my team members.",
+        "prompt": "Saya mengomunikasikan perasaan dan pemikiran saya tentang masalah pekerjaan dan kebijakan kerja kepada anggota tim saya.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I make it a point to give my team members positive feedback often.",
+        "prompt": "Saya selalu memberikan feedback (umpan balik) yang positif kepada anggota tim saya secara rutin.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I am very specific when I am describing what team members did well or what they need improvement in. I would not use a general, vague statement like, 'You have a bad attitude.'",
+        "prompt": "Saya sangat spesifik ketika menggambarkan apa yang dilakukan dengan baik oleh anggota tim atau apa yang perlu mereka tingkatkan. Saya tidak menggunakan pernyataan umum dan samar seperti, 'Anda memiliki sikap yang buruk.'",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I give constructive feedback in private.",
+        "prompt": "Saya memberikan feedback (umpan balik) yang konstruktif secara pribadi.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I give positive or constructive feedback as soon after an event as possible.",
+        "prompt": "Saya memberikan feedback (umpan balik), baik itu positif maupun konstruktif, sesegera mungkin setelah sebuah peristiwa terjadi.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I give performance and constructive feedback in person and not electronically (email or text) or by phone.",
+        "prompt": "Saya memberikan feedback (umpan balik) mengenai kinerja yang konstruktif secara langsung dan bukan melalui media elektronik (surel atau pesan teks) atau telepon.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "I am aware of my personal body language, verbal tones and inflections when communicating and will make adjustments to increase the effectiveness of my communications.",
+        "prompt": "Saya menyadari bahasa tubuh pribadi, nada bicara, dan intonasi saya ketika berkomunikasi, dan melakukan penyesuaian untuk meningkatkan efektivitas komunikasi saya.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": " I can speak confidently in a group setting and am able to model the communication needs of group members.",
+        "prompt": "Saya dapat berbicara dengan percaya diri dalam kelompok dan mampu menjadi contoh dalam memenuhi kebutuhan komunikasi anggota kelompok.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "When coaching a team member, I ask questions to get them to create their own solution and I don’t direct them to my solution.",
+        "prompt": "Saat memberikan pembinaan kepada anggota tim, saya mengajukan pertanyaan untuk mendorong mereka menciptakan solusi mereka sendiri, dan tidak mengarahkan mereka menuju solusi saya.",
         "subcategory": "Kekuatan",
         "reverse": false
       }
