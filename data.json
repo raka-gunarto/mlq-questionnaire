@@ -1,6 +1,6 @@
 {
   "Indonesian": {
-    "name": "Evaluasi Komunikasi untuk Pemimpin-Manajer",
+    "name": "CALM Questionnaire: Evaluasi Komunikasi untuk Pemimpin-Manajer",
     "instructions": "Silakan baca setiap pernyataan dalam profil evaluasi dan jawablah dengan jujur sesuai dengan yang Anda lakukan selama ini. Hanya Anda yang dapat melihat hasilnya.",
     "scale": [
       {
@@ -58,12 +58,12 @@
     ],
     "questions": [
       {
-        "prompt": "Saya tidak memiliki orang lain yang bertanggung jawab untuk mendisiplinkan, melatih, atau melakukan penilaian kinerja anggota tim saya. Saya melakukan semuanya sendiri.",
+        "prompt": "Tidak ada orang lain yang membantu saya dan bertanggung jawab untuk mendisiplinkan, melatih, atau melakukan penilaian kinerja anggota tim saya. Saya melakukan semuanya sendiri.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya mengajukan pertanyaan yang mendalam dan terbuka untuk memahami situasi sebelum memberikan saran atau pendapat saya.",
+        "prompt": "Saya mengajukan pertanyaan terbuka dan mendalam untuk memahami situasi sebelum memberikan saran atau pendapat saya.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
@@ -73,22 +73,22 @@
         "reverse": false
       },
       {
-        "prompt": "Saya memberikan pesan yang tidak bercampur aduk kepada anggota tim saya. Saya tidak akan mengatakan, 'Terima kasih telah menyelesaikan proyek tepat waktu; itu akan menghemat banyak pengeluaran kita. Tetapi, saat bekerja pada proyek, Anda perlu lebih sering mengkomunikasikan status pekerjaan Anda.'",
+        "prompt": "Saya tidak pernah memberikan pesan yang bercampur aduk antara apresiasi dan teguran kepada anggota tim saya. Contoh pesan yang bercampur aduk, 'Terima kasih telah menyelesaikan proyek tepat waktu; itu menghemat pengeluaran kita. Tetapi, saat bekerja pada proyek, Anda perlu lebih sering mengkomunikasikan status pekerjaan Anda.'",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saat saya mendengarkan, saya berusaha untuk memperjelas apa yang dikatakan anggota tim saya. Saya melakukannya untuk memberi tahu mereka bahwa saya benar-benar mendengarkan apa yang mereka katakan.",
+        "prompt": "Saat saya mendengarkan, saya akan mengajukan pertanyakan atau pernyataan klarifikasi atas apa yang dikatakan anggota tim saya. Saya melakukannya untuk memberi tahu mereka bahwa saya benar-benar mendengarkan apa yang mereka katakan.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya berusaha open-mind dan memahami sudut pandang anggota tim lainnya.",
+        "prompt": "Saya menjaga diri saya selalu dalam kondisi open-mind dan memahami sudut pandang anggota tim saya.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saat mendengarkan, saya memberikan perhatian penuh kepada anggota tim saya. Saya tidak melakukannya sambil menelepon, menulis, atau memikirkan hal lain.",
+        "prompt": "Saat mendengarkan, saya memberikan perhatian penuh kepada anggota tim saya. Tidak sambil menelepon, menulis, atau memikirkan hal lain.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
@@ -98,17 +98,17 @@
         "reverse": false
       },
       {
-        "prompt": "Saya berhati-hati agar kata-kata atau ungkapan yang saya gunakan tidak menghalangi pemahaman anggota tim terhadap saya. Saya menghindari penggunaan jargon, bahasa gaul, dan singkatan.",
+        "prompt": "Saya berhati-hati agar kata-kata atau ungkapan yang saya gunakan mudah dipahami anggota tim saya. Saya menghindari penggunaan jargon, istilah dan singkatan yang tidak mereka pahami.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saat saya mendengarkan, saya mencari makna dengan mendengarkan apa yang dikatakan anggota tim saya. Saya memperhatikan nada suara, intonasi, ekspresi wajah, gerakan tangan, dan bahasa tubuh mereka.",
+        "prompt": "Saat saya mendengarkan, saya juga memperhatikan nada suara, intonasi, ekspresi wajah, gerakan tangan, dan bahasa tubuh mereka untuk bisa memahami makna tersirat yang mungkin ada.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya menyadari bahwa anggota tim saya berasal dari latar belakang dan budaya yang berbeda, sehingga mereka berkomunikasi dengan cara yang berbeda pula. Saya menyesuaikan gaya komunikasi saya untuk memenuhi kebutuhan mereka.",
+        "prompt": "Saya menyadari bahwa anggota tim saya berasal dari latar belakang dan budaya yang berbeda, sehingga mereka berkomunikasi dengan cara yang berbeda pula. Saya beradaptasi dan menyesuaikan dengan situasi mereka.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
@@ -118,42 +118,42 @@
         "reverse": false
       },
       {
-        "prompt": "Saya selalu memberikan feedback (umpan balik) yang positif kepada anggota tim saya secara rutin.",
+        "prompt": "Saya selalu memberikan positive feedback (umpan balik positif) kepada anggota tim saya secara rutin.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya sangat spesifik ketika menggambarkan apa yang dilakukan dengan baik oleh anggota tim atau apa yang perlu mereka tingkatkan. Saya menghindari penggunaan pernyataan umum dan samar seperti, 'Anda memiliki sikap yang buruk.'",
+        "prompt": "Saya sangat spesifik ketika mengapresiasi dan menunjukkan apa yang sudah dilakukan dengan baik oleh anggota tim. Begitu pula ketika menyampaikan apa yang perlu mereka tingkatkan. Saya menghindari penggunaan pernyataan yang tidak spesifik seperti, 'Anda memiliki sikap yang buruk'. Saya akan menyebutkan apa tepatnya sikap yang telah dia lakukan.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya memberikan feedback (umpan balik) yang konstruktif secara pribadi.",
+        "prompt": "Saya memberikan constructive feedback (umpan balik yang konstruktif/teguran) secara pribadi.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya memberikan feedback (umpan balik), baik itu positif maupun konstruktif, sesegera mungkin setelah sebuah peristiwa terjadi.",
+        "prompt": "Saya memberikan  positive maupun contructive feedback (umpan balik positif maupun konstruktif) sesegera mungkin setelah sebuah peristiwa terjadi.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya memberikan feedback (umpan balik) mengenai kinerja yang konstruktif secara langsung dan bukan melalui media elektronik (surel atau pesan teks) atau telepon.",
+        "prompt": "Saya memberikan performance and constructive feedback (umpan balik mengenai kinerja yang perlu diperbaiki) secara langsung kepada yang bersangkutan dan bukan melalui surel, pesan teks atau telepon.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya menyadari bahasa tubuh pribadi, nada bicara, dan intonasi saya ketika berkomunikasi, dan melakukan penyesuaian untuk meningkatkan efektivitas komunikasi saya.",
+        "prompt": "Saya dengan sadar mengatur bahasa tubuh, nada bicara, dan intonasi saya ketika berkomunikasi, serta melakukan penyesuaian untuk meningkatkan efektivitas komunikasi saya.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya dapat berbicara dengan percaya diri dalam kelompok dan mampu menjadi contoh dalam memenuhi kebutuhan komunikasi anggota kelompok.",
+        "prompt": "Saya dapat berbicara dengan percaya diri dalam kelompok dan mampu menyesuaikan gaya komunikasi yang berbeda untuk tiap kelompok.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saat memberikan coaching kepada anggota tim, saya mengajukan pertanyaan untuk mendorong mereka menciptakan solusi mereka sendiri, bukan mengarahkan mereka menuju solusi saya.",
+        "prompt": "Saat memberikan coaching kepada anggota tim, saya mengajukan pertanyaan untuk mendorong mereka menciptakan solusi bagi mereka sendiri, bukan mengarahkan mereka menuju solusi yang menurut saya benar.",
         "subcategory": "Kekuatan",
         "reverse": false
       }
