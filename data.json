@@ -73,7 +73,7 @@
         "reverse": false
       },
       {
-        "prompt": "Saya tidak memberikan pesan yang bercampur aduk kepada anggota tim saya. Saya tidak akan mengatakan, 'Terima kasih telah menyelesaikan proyek tepat waktu; itu akan menghemat banyak pengeluaran kita. Tetapi, saat bekerja pada proyek, Anda perlu lebih sering mengkomunikasikan status pekerjaan Anda.'",
+        "prompt": "Saya memberikan pesan yang tidak bercampur aduk kepada anggota tim saya. Saya tidak akan mengatakan, 'Terima kasih telah menyelesaikan proyek tepat waktu; itu akan menghemat banyak pengeluaran kita. Tetapi, saat bekerja pada proyek, Anda perlu lebih sering mengkomunikasikan status pekerjaan Anda.'",
         "subcategory": "Kekuatan",
         "reverse": false
       },
@@ -123,7 +123,7 @@
         "reverse": false
       },
       {
-        "prompt": "Saya sangat spesifik ketika menggambarkan apa yang dilakukan dengan baik oleh anggota tim atau apa yang perlu mereka tingkatkan. Saya tidak menggunakan pernyataan umum dan samar seperti, 'Anda memiliki sikap yang buruk.'",
+        "prompt": "Saya sangat spesifik ketika menggambarkan apa yang dilakukan dengan baik oleh anggota tim atau apa yang perlu mereka tingkatkan. Saya menghindari penggunaan pernyataan umum dan samar seperti, 'Anda memiliki sikap yang buruk.'",
         "subcategory": "Kekuatan",
         "reverse": false
       },
@@ -153,7 +153,7 @@
         "reverse": false
       },
       {
-        "prompt": "Saat memberikan pembinaan kepada anggota tim, saya mengajukan pertanyaan untuk mendorong mereka menciptakan solusi mereka sendiri, dan tidak mengarahkan mereka menuju solusi saya.",
+        "prompt": "Saat memberikan coaching kepada anggota tim, saya mengajukan pertanyaan untuk mendorong mereka menciptakan solusi mereka sendiri, bukan mengarahkan mereka menuju solusi saya.",
         "subcategory": "Kekuatan",
         "reverse": false
       }
