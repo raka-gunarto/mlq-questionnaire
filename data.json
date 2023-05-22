@@ -1,7 +1,7 @@
 {
   "Indonesian": {
-    "name": "Family Strength Questionnaire",
-    "instructions": "Silahkan membaca pertanyaan dengan seksama. Jawablah dengan jujur dan hanya anda yang bisa melihat hasilnya.",
+    "name": "Asesmen Komunikasi untuk Leader-Managers",
+    "instructions": "Silakan membaca pertanyaan dengan seksama. Jawablah dengan jujur dan hanya anda yang bisa melihat hasilnya.",
     "scale": [
       {
         "prompt": "Tidak Pernah",
@@ -31,121 +31,131 @@
     ],
     "feedback": [
       {
-        "threshold": { "Kekuatan": 76 },
+        "threshold": { "Kekuatan": 90 },
         "priority": 1,
-        "text": "Kekuatan keluarga anda sudah baik, pertahankan dan evaluasi agar tetap baik."
+        "text": "Superstar Communicator. Keep on doing all the right things and take a look at those areas you scored yourself less than 5 and determine how to raise those scores."
       },
       {
-        "threshold": { "Kekuatan": 51 },
+        "threshold": { "Kekuatan": 79 },
         "priority": 2,
-        "text": "Kekuatan keluarga anda masih bisa ditingkatkan lagi. Tingkatkan apresiasi, kemampuan komunikasi dan persuasi. Kemampuan-kemampuan berikut ini bisa diperdalam Kembali : mengelola emosi, penyelesaian masalah dan pengambilan keputusan yang efektif. Tingkatkan waktu untuk berkegiatan bersama, melakukan aktifitas sosial dan spiritual bersama keluarga."
+        "text": "Talented Communicator. Identify the areas you need to improve. Determine which one, if improved, would have the biggest impact on your success. What behavior can you start to practice to improve the skill?"
       },
       {
-        "threshold": { "Kekuatan": 20 },
+        "threshold": { "Kekuatan": 68 },
         "priority": 3,
-        "text": "Anda masih sangat perlu meningkatkan kekuatan keluarga di berbagai aspek. Tingkatkan apresiasi, kemampuan komunikasi dan persuasi. Pelajari cara-cara mengelola emosi, penyelesaian masalah dan pengambilan keputusan yang efektif. Sediakan waktu untuk berkegiatan bersama, melakukan aktifitas sosial dan spiritual bersama keluarga dengan pemahaman mendalam, bukan sekedar aktifitas ritual."
+        "text": "Mediocre Communicator. Seek out advice from communications superstar in your organization. Create a development plan that focuses on the top two skills you need to improve. Ask for feedback and coaching from this person as you implement the plan."
+      },
+      {
+        "threshold": { "Kekuatan": 57 },
+        "priority": 4,
+        "text": "Distressed Communicator. Ask for assistance from your manager to develop an improvement plan including any necessary communications training. Track progress of the plan and make necessary changes if improvement isn’t being observed by your manager."
+      },
+      {
+        "threshold": { "Kekuatan": 45 },
+        "priority": 5,
+        "text": "Bankrupt Communicator. Remedial work is required, ask someone you trust who is a superstar or talented communicator to help coach you. If improvement isn’t made, you may want to seek outside advice on your career plans. It may be that becoming a manager-leader is outside your grasp and you need to re- evaluate your career goals."
       }
     ],
     "questions": [
       {
-        "prompt": "Kami bisa saling mengungkapkan apapun yang kami rasakan dengan leluasa dengan cara yang bisa diterima satu sama lain",
+        "prompt": "I do not have someone else discipline, coach or do performance reviews for my team members. I do all of that myself.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Kami saling percaya satu sama lain",
+        "prompt": "I ask probing and open ended questions to understand a situation before giving my advice or opinion.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Pasangan saya mempercayai saya untuk mendiskusikan masalahnya agar mendapatkan solusi",
+        "prompt": "When I listen to my team members, it is important for me to be empathetic. I allow them to talk without having to feel that they are being criticized or judged.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Anak-anak mempercayai orang tuanya untuk mendiskusikan masalahnya",
+        "prompt": "I do not give my team members mixed messages. I would not say: 'Thanks for finishing the project on time; it will save us a lot of money. But, while working on a project, you need to communicate your status more often.'",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Kami bisa saling mendengarkan tanpa mengkritisi",
+        "prompt": "When I listen, I try to clarify what my team members have said. I do this to let them know that I am actively listening to what they are saying.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Kami biasa saling memuji satu sama lain",
+        "prompt": "I keep an open mind and try to understand the point of view of other team members.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Kami biasa saling memberi hadiah (meski sederhana) di luar hari ulang tahun ataupun hari besar keagamaan",
+        "prompt": "When listening, I give my full attention to my team members. I am not on the phone, writing or thinking about something else.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Kami mendiskusikan visa/misi/value keluarga agar dipahami bersama",
+        "prompt": "I summarize what I have heard and understood at the end of a conversation or discussion.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Kami beribadah bersama-sama",
+        "prompt": "I am careful not to allow the words or expressions that I use to get in the way of my team members understanding me. I avoid jargon, slang, and acronyms.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Kami saling menghargai kepentingan masing-masing anggota keluarga",
+        "prompt": "When I listen, I look for meaning by listening to what my team members say, their vocal tones and inflections and by watching their facial expressions, hand gestures, and body language.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Kami berkegiatan sosial bersama",
+        "prompt": "I am aware that team members come from different backgrounds and diverse cultures, so they communicate differently. I adapt my communication styles to meet their needs.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Kami mengungkapkan rasa bangga menjadi bagian dari keluarga ini",
+        "prompt": " I communicate my feelings and thoughts about work issues and policies to my team members.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Masing-masing kami bisa fleksibel berbicara dengan cara yang disukai oleh masing-masing anggota keluarga",
+        "prompt": "I make it a point to give my team members positive feedback often.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Kami kuatir tentang banyak hal",
+        "prompt": "I am very specific when I am describing what team members did well or what they need improvement in. I would not use a general, vague statement like, 'You have a bad attitude.'",
         "subcategory": "Kekuatan",
-        "reverse": true
+        "reverse": false
       },
       {
-        "prompt": "Ketika ada masalah kami perlu waktu yang lama untuk menemukan solusi",
+        "prompt": "I give constructive feedback in private.",
         "subcategory": "Kekuatan",
-        "reverse": true
+        "reverse": false
       },
       {
-        "prompt": "Kami mengalami masalah yang sama berulang-ulang",
+        "prompt": "I give positive or constructive feedback as soon after an event as possible.",
         "subcategory": "Kekuatan",
-        "reverse": true
+        "reverse": false
       },
       {
-        "prompt": "Anak-anak kami menghindar jika diajak berdiskusi hal-hal yang menjadi masalah mereka",
+        "prompt": "I give performance and constructive feedback in person and not electronically (email or text) or by phone.",
         "subcategory": "Kekuatan",
-        "reverse": true
+        "reverse": false
       },
       {
-        "prompt": "Kami berbeda pendapat tentang pelaksanaan aturan dalam keluarga",
+        "prompt": "I am aware of my personal body language, verbal tones and inflections when communicating and will make adjustments to increase the effectiveness of my communications.",
         "subcategory": "Kekuatan",
-        "reverse": true
+        "reverse": false
       },
       {
-        "prompt": "Kami mengalami konflik keluarga",
+        "prompt": " I can speak confidently in a group setting and am able to model the communication needs of group members.",
         "subcategory": "Kekuatan",
-        "reverse": true
+        "reverse": false
       },
       {
-        "prompt": "Anggota keluarga kami ada yang kesulitan mengendalikan emosi",
+        "prompt": "When coaching a team member, I ask questions to get them to create their own solution and I don’t direct them to my solution.",
         "subcategory": "Kekuatan",
-        "reverse": true
+        "reverse": false
       }
     ]
   }
