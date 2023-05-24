@@ -73,7 +73,7 @@
         "reverse": false
       },
       {
-        "prompt": "Saya tidak pernah memberikan pesan yang bercampur aduk antara apresiasi dan teguran kepada anggota tim saya. Contoh pesan yang bercampur aduk, 'Terima kasih telah menyelesaikan proyek tepat waktu; itu menghemat pengeluaran kita. Tetapi, saat bekerja pada proyek, Anda perlu lebih sering mengkomunikasikan status pekerjaan Anda.'",
+        "prompt": "Saya tidak pernah memberikan pesan yang bercampur aduk antara apresiasi dan teguran kepada anggota tim saya dalam satu kalimat. Contoh: 'Terima kasih telah menyelesaikan proyek tepat waktu; itu menghemat pengeluaran kita. Tetapi, saat bekerja pada proyek, Anda perlu lebih sering mengkomunikasikan status pekerjaan Anda.' Saya akan memisahkan bagian mana yang diapresiasi dan bagian mana yang perlu diperbaiki dalam dua pokok bahasan yang berbeda.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
