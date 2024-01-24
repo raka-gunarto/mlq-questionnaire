@@ -1,6 +1,6 @@
 {
   "Indonesian": {
-    "name": "CALM Questionnaire: Evaluasi Komunikasi untuk Pemimpin-Manajer",
+    "name": "Evaluasi Komunikasi untuk Pemimpin-Manajer",
     "instructions": "Silakan baca setiap pernyataan dalam profil evaluasi dan jawablah dengan jujur sesuai dengan yang Anda lakukan selama ini. Hanya Anda yang dapat melihat hasilnya.",
     "scale": [
       {
@@ -33,32 +33,32 @@
       {
         "threshold": { "Kekuatan": 90 },
         "priority": 1,
-        "text": "Komunikator Cemerlang. Tetaplah lakukan hal-hal yang benar dan perhatikan area di mana Anda memberikan skor kurang dari 'Sangat Sering Sekali' dan tentukan bagaimana cara Anda meningkatkan skor-skor tersebut."
+        "text": "Komunikator Cemerlang. Komunikasi Anda sudah baik. Pertahankan cara komunikasi Anda dan tingkatkan dengan cara membantu rekan kerja Anda."
       },
       {
         "threshold": { "Kekuatan": 79 },
         "priority": 2,
-        "text": "Komunikator Berbakat. Identifikasi area di mana Anda perlu meningkatkan diri. Tentukan salah satu area yang, jika diperbaiki, akan memiliki dampak terbesar pada kesuksesan Anda. Apa perilaku yang dapat mulai Anda praktikkan untuk meningkatkan keterampilan tersebut?"
+        "text": "Komunikator Berbakat. Identifikasi area di mana Anda perlu meningkatkan diri. Tentukan area, yang jika diperbaiki, akan memiliki dampak terbesar pada kesuksesan Anda. Apa perilaku yang dapat mulai Anda praktikkan untuk meningkatkan keterampilan tersebut?"
       },
       {
         "threshold": { "Kekuatan": 68 },
         "priority": 3,
-        "text": "Komunikator Medioker. Cari nasihat dari Komunikator Cemerlang dalam organisasi Anda. Buat rencana pengembangan diri yang fokus pada dua keterampilan teratas yang perlu Anda tingkatkan. Mintalah feedback (umpan balik) dan bimbingan dari orang tersebut saat Anda menerapkan rencana tersebut."
+        "text": "Komunikator Medioker. Cari nasihat dari Komunikator Cemerlang dalam organisasi Anda. Buat rencana pengembangan dan mintalah umpan balik dan bimbingan dari orang tersebut saat Anda menerapkan rencana tersebut."
       },
       {
         "threshold": { "Kekuatan": 57 },
         "priority": 4,
-        "text": "Komunikator yang Perlu Peningkatkan. Minta bantuan dari manajer Anda untuk mengembangkan rencana perbaikan yang mencakup pelatihan komunikasi yang diperlukan. Lacak kemajuan rencana tersebut dan lakukan perubahan yang diperlukan jika manajer Anda tidak melihat adanya perbaikan."
+        "text": "Komunikator yang Perlu Peningkatkan. Minta bantuan dari pimpinan Anda untuk mengembangkan rencana perbaikan, bimbingan dari Komunikator Cemerlang dan pelatihan komunikasi yang diperlukan. Evaluasi kemajuan Anda."
       },
       {
         "threshold": { "Kekuatan": 45 },
         "priority": 5,
-        "text": "Komunikator yang Memerlukan Pertolongan. Diperlukan upaya pemulihan, mintalah bantuan seseorang yang Anda percaya, yang merupakan 'Komunikator Cemerlang' atau 'Komunikator Berbakat', untuk membantu melatih Anda. Jika tidak ada perbaikan yang terjadi, Anda mungkin ingin mencari nasihat dari pihak luar mengenai rencana karier Anda. Kemungkinan menjadi seorang pemimpin-manajer tidak sesuai dengan kemampuan Anda dan Anda perlu mengevaluasi kembali tujuan karier Anda."
+        "text": "Komunikator yang Memerlukan Pertolongan. Minta bantuan dari pimpinan Anda untuk mengembangkan rencana perbaikan, bimbingan dari Komunikator Cemerlang dan pelatihan komunikasi yang diperlukan. Evaluasi kemajuan Anda. Apabila kemajuan kurang menggembirakan, kemungkinan menjadi seorang pemimpin tidak sesuai untuk Anda dan Anda perlu mengevaluasi kembali tujuan karier Anda."
       }
     ],
     "questions": [
       {
-        "prompt": "Tidak ada orang lain yang membantu saya dan bertanggung jawab untuk mendisiplinkan, melatih, atau melakukan penilaian kinerja anggota tim saya. Saya melakukan semuanya sendiri.",
+        "prompt": "Saya tahu dan bisa melakukan tindakan disiplin, melatih, dan melakukan evaluasi kinerja anggota tim saya. Saya bertanggung jawab melakukannya sendiri tanpa mewakilkan kepada orang lain.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
@@ -68,17 +68,17 @@
         "reverse": false
       },
       {
-        "prompt": "Saat saya mendengarkan anggota tim saya, penting bagi saya untuk memiliki empati. Saya membiarkan mereka berbicara tanpa merasa bahwa mereka sedang dikritik atau dihakimi.",
+        "prompt": "Saat menunjukkan empati saat mendengarkan anggota tim saya. Saya memberi kesempatan mereka berbicara tanpa merasa bahwa mereka sedang dikritik atau dihakimi.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya tidak pernah memberikan pesan yang bercampur aduk antara apresiasi dan teguran kepada anggota tim saya dalam satu kalimat. Contoh: 'Terima kasih telah menyelesaikan proyek tepat waktu; itu menghemat pengeluaran kita. Tetapi, saat bekerja pada proyek, Anda perlu lebih sering mengkomunikasikan status pekerjaan Anda.' Saya akan memisahkan bagian mana yang diapresiasi dan bagian mana yang perlu diperbaiki dalam dua pokok bahasan yang berbeda.",
+        "prompt": "Saya TIDAK memberikan pesan yang bercampur aduk antara apresiasi dan teguran kepada anggota tim. Contoh: 'Terima kasih telah menyelesaikan proyek tepat waktu; itu menghemat pengeluaran perusahaan. Tetapi, Anda perlu lebih sering mengkomunikasikan status pekerjaan Anda.'",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saat saya mendengarkan, saya akan mengajukan pertanyakan atau pernyataan klarifikasi atas apa yang dikatakan anggota tim saya. Saya melakukannya untuk memberi tahu mereka bahwa saya benar-benar mendengarkan apa yang mereka katakan.",
+        "prompt": "Saat saya mendengarkan, saya akan mengajukan pertanyaan atau pernyataan klarifikasi untuk menunjukkan bahwa saya benar-benar mendengarkan apa yang mereka katakan.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
@@ -88,17 +88,17 @@
         "reverse": false
       },
       {
-        "prompt": "Saat mendengarkan, saya memberikan perhatian penuh kepada anggota tim saya. Tidak sambil menelepon, menulis, atau memikirkan hal lain.",
+        "prompt": "Saya memberikan perhatian penuh kepada anggota tim saya saat mendengarkan. Tidak sambil menelepon, menulis, atau memikirkan hal lain.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya merangkum apa yang telah saya dengar dan pahami pada akhir percakapan atau diskusi.",
+        "prompt": "Saya merangkum apa yang telah saya dengar dan pahami pada akhir diskusi, lalu mengkonfirmasikan kesimpulan saya tersebut.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya berhati-hati agar kata-kata atau ungkapan yang saya gunakan mudah dipahami anggota tim saya. Saya menghindari penggunaan jargon, istilah dan singkatan yang tidak mereka pahami.",
+        "prompt": "Saya berhati-hati dan merencanakan kata-kata yang saya gunakan agar mudah dipahami anggota tim saya. Saya menghindari penggunaan jargon, istilah dan singkatan yang tidak mereka pahami.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
@@ -113,32 +113,32 @@
         "reverse": false
       },
       {
-        "prompt": "Saya mengomunikasikan perasaan dan pemikiran saya tentang masalah pekerjaan dan kebijakan kerja kepada anggota tim saya.",
+        "prompt": "Saya tidak ragu-ragu menerapkan tindakan disiplin sesuai dengan aturan perusahaan. Saya tidak melakukan pembiaran supaya tidak menjadi kebiasaan.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya selalu memberikan positive feedback (umpan balik positif) kepada anggota tim saya secara rutin.",
+        "prompt": "Saya mudah menemukan hal-hal yang perlu mendapatkan positive feedback (umpan balik positif) dari apa yang dilakukan anggota tim saya dan saya lakukan secara rutin.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya sangat spesifik ketika mengapresiasi dan menunjukkan apa yang sudah dilakukan dengan baik oleh anggota tim. Begitu pula ketika menyampaikan apa yang perlu mereka tingkatkan. Saya menghindari penggunaan pernyataan yang tidak spesifik seperti, 'Anda memiliki sikap yang buruk'. Saya akan menyebutkan apa tepatnya sikap yang telah dia lakukan.",
+        "prompt": "Saya sangat spesifik ketika mengapresiasi apa yang sudah dilakukan dengan baik oleh anggota tim. Begitu pula ketika menyampaikan apa yang perlu mereka tingkatkan. Saya menghindari penggunaan pernyataan yang tidak spesifik seperti, 'Ini mengecewakan' atau ‘Well done’. Saya akan menyebutkan apa tepatnya yang telah dia lakukan.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya memberikan constructive feedback (umpan balik yang konstruktif/teguran) secara pribadi.",
+        "prompt": "Saya memberikan constructive feedback (teguran) secara pribadi.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya memberikan  positive maupun contructive feedback (umpan balik positif maupun konstruktif) sesegera mungkin setelah sebuah peristiwa terjadi.",
+        "prompt": "Saya memberikan positive maupun constructive feedback (umpan balik positif maupun konstruktif) sesegera mungkin setelah sebuah peristiwa terjadi.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
       {
-        "prompt": "Saya memberikan performance and constructive feedback (umpan balik mengenai kinerja yang perlu diperbaiki) secara langsung kepada yang bersangkutan dan bukan melalui surel, pesan teks atau telepon.",
+        "prompt": "Saya memberikan umpan balik mengenai kinerja yang perlu diperbaiki secara langsung kepada yang bersangkutan dan bukan melalui surel atau pesan teks.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
@@ -148,7 +148,7 @@
         "reverse": false
       },
       {
-        "prompt": "Saya dapat berbicara dengan percaya diri dalam kelompok dan mampu menyesuaikan gaya komunikasi yang berbeda untuk tiap kelompok.",
+        "prompt": "Saya mengetahui kapan anggota tim saya memerlukan bantuan profesional untuk menyelesaikan masalahnya dan melalui perusahaan memfasilitasi hal tersebut.",
         "subcategory": "Kekuatan",
         "reverse": false
       },
