@@ -15,7 +15,7 @@ export default function QuestionCard({ question, scale, onAnswer }) {
               <div
                 className={clsx(
                   "w-full rounded-xl p-2 text-center text-slate-200 cursor-pointer text-md lg:text-lg select-none",
-                  question.answer === value ? "bg-green-600" : "bg-slate-600"
+                  question.answer === value ? "bg-answerselected" : "bg-answerunselected"
                 )}
                 onClick={() => onAnswer(value)}
               >
