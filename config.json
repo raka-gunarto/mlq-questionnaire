@@ -1,0 +1,8 @@
+{
+  "colors": {
+    "pageBG": "#1e2a3a",
+    "cardBG": "#cbd6e1",
+    "answerUnselected": "#475668",
+    "answerSelected": "#2ba34f"
+  }
+}
